@@ -1,0 +1,39 @@
+.friend-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .friend-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friend-name {
+    font-weight: bold;
+  }
+  
+  .friend-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  /* Додайте стиль для online */
+  .friend-online {
+    background-color: green;
+  }
+  
+  /* Додайте стиль для offline */
+  .friend-offline {
+    background-color: red;
+  }
+  
